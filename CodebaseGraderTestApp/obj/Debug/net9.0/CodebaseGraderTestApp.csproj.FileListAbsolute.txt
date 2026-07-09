@@ -1,0 +1,160 @@
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/CodebaseGraderTestApp/obj/Debug/net9.0/CodebaseGraderTestApp.csproj.AssemblyReference.cache
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/CodebaseGraderTestApp/obj/Debug/net9.0/CodebaseGraderTestApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/CodebaseGraderTestApp/obj/Debug/net9.0/CodebaseGraderTestApp.AssemblyInfoInputs.cache
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/CodebaseGraderTestApp/obj/Debug/net9.0/CodebaseGraderTestApp.AssemblyInfo.cs
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/CodebaseGraderTestApp/obj/Debug/net9.0/CodebaseGraderTestApp.csproj.CoreCompileInputs.cache
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/CodebaseGraderTestApp/obj/Debug/net9.0/CodebaseGraderTestApp.MvcApplicationPartsAssemblyInfo.cache
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/CodebaseGraderTestApp/obj/Debug/net9.0/CodebaseGraderTestApp.sourcelink.json
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/CodebaseGraderTestApp/bin/Debug/net9.0/appsettings.json
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/CodebaseGraderTestApp/bin/Debug/net9.0/CodebaseGraderTestApp.staticwebassets.endpoints.json
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/CodebaseGraderTestApp/bin/Debug/net9.0/CodebaseGraderTestApp
+/Users/davidmondrusov/Desktop/work/codebase-grading-sandbox/test-app/CodebaseGraderTestApp/bin/Debug/net9.0/CodebaseGraderTestApp.deps.json
+/Users/davidmondrusov/Desktop/work/codebase-grading-sandbox/test-app/CodebaseGraderTestApp/bin/Debug/net9.0/CodebaseGraderTestApp.runtimeconfig.json
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/CodebaseGraderTestApp/bin/Debug/net9.0/CodebaseGraderTestApp.dll
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/CodebaseGraderTestApp/bin/Debug/net9.0/CodebaseGraderTestApp.pdb
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/CodebaseGraderTestApp/bin/Debug/net9.0/AutoMapper.dll
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/CodebaseGraderTestApp/bin/Debug/net9.0/Azure.Core.dll
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/CodebaseGraderTestApp/bin/Debug/net9.0/Azure.Identity.dll
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/CodebaseGraderTestApp/bin/Debug/net9.0/Azure.Security.KeyVault.Secrets.dll
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/CodebaseGraderTestApp/bin/Debug/net9.0/Dapper.dll
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/CodebaseGraderTestApp/bin/Debug/net9.0/log4net.dll
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/CodebaseGraderTestApp/bin/Debug/net9.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/CodebaseGraderTestApp/bin/Debug/net9.0/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/CodebaseGraderTestApp/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.dll
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/CodebaseGraderTestApp/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/CodebaseGraderTestApp/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.InMemory.dll
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/CodebaseGraderTestApp/bin/Debug/net9.0/Microsoft.Identity.Client.dll
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/CodebaseGraderTestApp/bin/Debug/net9.0/Microsoft.Identity.Client.Extensions.Msal.dll
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/CodebaseGraderTestApp/bin/Debug/net9.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/CodebaseGraderTestApp/bin/Debug/net9.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/CodebaseGraderTestApp/bin/Debug/net9.0/Microsoft.IdentityModel.Logging.dll
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/CodebaseGraderTestApp/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.dll
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/CodebaseGraderTestApp/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/CodebaseGraderTestApp/bin/Debug/net9.0/Microsoft.IdentityModel.Tokens.dll
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/CodebaseGraderTestApp/bin/Debug/net9.0/Newtonsoft.Json.dll
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/CodebaseGraderTestApp/bin/Debug/net9.0/System.ClientModel.dll
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/CodebaseGraderTestApp/bin/Debug/net9.0/System.Configuration.ConfigurationManager.dll
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/CodebaseGraderTestApp/bin/Debug/net9.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/CodebaseGraderTestApp/bin/Debug/net9.0/System.Memory.Data.dll
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/CodebaseGraderTestApp/bin/Debug/net9.0/System.Security.Cryptography.ProtectedData.dll
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/CodebaseGraderTestApp/bin/Debug/net9.0/System.Security.Permissions.dll
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/CodebaseGraderTestApp/bin/Debug/net9.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/CodebaseGraderTestApp/obj/Debug/net9.0/scopedcss/bundle/CodebaseGraderTestApp.styles.css
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/CodebaseGraderTestApp/obj/Debug/net9.0/staticwebassets.build.json
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/CodebaseGraderTestApp/obj/Debug/net9.0/staticwebassets.build.json.cache
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/CodebaseGraderTestApp/obj/Debug/net9.0/staticwebassets.development.json
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/CodebaseGraderTestApp/obj/Debug/net9.0/staticwebassets.build.endpoints.json
+/Users/davidmondrusov/Desktop/work/codebase-grading-sandbox/test-app/CodebaseGraderTestApp/obj/Debug/net9.0/Codebase.196E0DCB.Up2Date
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/CodebaseGraderTestApp/obj/Debug/net9.0/CodebaseGraderTestApp.dll
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/CodebaseGraderTestApp/obj/Debug/net9.0/refint/CodebaseGraderTestApp.dll
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/CodebaseGraderTestApp/obj/Debug/net9.0/CodebaseGraderTestApp.pdb
+/Users/davidmondrusov/Desktop/work/codebase-grading-sandbox/test-app/CodebaseGraderTestApp/obj/Debug/net9.0/CodebaseGraderTestApp.genruntimeconfig.cache
+/Users/davidmondrusov/Desktop/work/codebase-grading-sandbox/test-app/CodebaseGraderTestApp/obj/Debug/net9.0/ref/CodebaseGraderTestApp.dll
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/mixed/CodebaseGraderTestApp/bin/Debug/net9.0/appsettings.json
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/mixed/CodebaseGraderTestApp/bin/Debug/net9.0/CodebaseGraderTestApp.staticwebassets.endpoints.json
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/mixed/CodebaseGraderTestApp/bin/Debug/net9.0/CodebaseGraderTestApp
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/mixed/CodebaseGraderTestApp/bin/Debug/net9.0/CodebaseGraderTestApp.deps.json
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/mixed/CodebaseGraderTestApp/bin/Debug/net9.0/CodebaseGraderTestApp.runtimeconfig.json
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/mixed/CodebaseGraderTestApp/bin/Debug/net9.0/CodebaseGraderTestApp.dll
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/mixed/CodebaseGraderTestApp/bin/Debug/net9.0/CodebaseGraderTestApp.pdb
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/mixed/CodebaseGraderTestApp/bin/Debug/net9.0/AutoMapper.dll
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/mixed/CodebaseGraderTestApp/bin/Debug/net9.0/Azure.Core.dll
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/mixed/CodebaseGraderTestApp/bin/Debug/net9.0/Azure.Identity.dll
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/mixed/CodebaseGraderTestApp/bin/Debug/net9.0/Azure.Security.KeyVault.Secrets.dll
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/mixed/CodebaseGraderTestApp/bin/Debug/net9.0/Dapper.dll
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/mixed/CodebaseGraderTestApp/bin/Debug/net9.0/log4net.dll
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/mixed/CodebaseGraderTestApp/bin/Debug/net9.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/mixed/CodebaseGraderTestApp/bin/Debug/net9.0/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/mixed/CodebaseGraderTestApp/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.dll
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/mixed/CodebaseGraderTestApp/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/mixed/CodebaseGraderTestApp/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.InMemory.dll
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/mixed/CodebaseGraderTestApp/bin/Debug/net9.0/Microsoft.Identity.Client.dll
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/mixed/CodebaseGraderTestApp/bin/Debug/net9.0/Microsoft.Identity.Client.Extensions.Msal.dll
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/mixed/CodebaseGraderTestApp/bin/Debug/net9.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/mixed/CodebaseGraderTestApp/bin/Debug/net9.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/mixed/CodebaseGraderTestApp/bin/Debug/net9.0/Microsoft.IdentityModel.Logging.dll
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/mixed/CodebaseGraderTestApp/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.dll
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/mixed/CodebaseGraderTestApp/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/mixed/CodebaseGraderTestApp/bin/Debug/net9.0/Microsoft.IdentityModel.Tokens.dll
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/mixed/CodebaseGraderTestApp/bin/Debug/net9.0/Newtonsoft.Json.dll
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/mixed/CodebaseGraderTestApp/bin/Debug/net9.0/System.ClientModel.dll
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/mixed/CodebaseGraderTestApp/bin/Debug/net9.0/System.Configuration.ConfigurationManager.dll
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/mixed/CodebaseGraderTestApp/bin/Debug/net9.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/mixed/CodebaseGraderTestApp/bin/Debug/net9.0/System.Memory.Data.dll
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/mixed/CodebaseGraderTestApp/bin/Debug/net9.0/System.Security.Cryptography.ProtectedData.dll
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/mixed/CodebaseGraderTestApp/bin/Debug/net9.0/System.Security.Permissions.dll
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/mixed/CodebaseGraderTestApp/bin/Debug/net9.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/mixed/CodebaseGraderTestApp/obj/Debug/net9.0/CodebaseGraderTestApp.csproj.AssemblyReference.cache
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/mixed/CodebaseGraderTestApp/obj/Debug/net9.0/CodebaseGraderTestApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/mixed/CodebaseGraderTestApp/obj/Debug/net9.0/CodebaseGraderTestApp.AssemblyInfoInputs.cache
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/mixed/CodebaseGraderTestApp/obj/Debug/net9.0/CodebaseGraderTestApp.AssemblyInfo.cs
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/mixed/CodebaseGraderTestApp/obj/Debug/net9.0/CodebaseGraderTestApp.csproj.CoreCompileInputs.cache
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/mixed/CodebaseGraderTestApp/obj/Debug/net9.0/CodebaseGraderTestApp.MvcApplicationPartsAssemblyInfo.cache
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/mixed/CodebaseGraderTestApp/obj/Debug/net9.0/CodebaseGraderTestApp.sourcelink.json
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/mixed/CodebaseGraderTestApp/obj/Debug/net9.0/scopedcss/bundle/CodebaseGraderTestApp.styles.css
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/mixed/CodebaseGraderTestApp/obj/Debug/net9.0/staticwebassets.build.json
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/mixed/CodebaseGraderTestApp/obj/Debug/net9.0/staticwebassets.build.json.cache
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/mixed/CodebaseGraderTestApp/obj/Debug/net9.0/staticwebassets.development.json
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/mixed/CodebaseGraderTestApp/obj/Debug/net9.0/staticwebassets.build.endpoints.json
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/mixed/CodebaseGraderTestApp/obj/Debug/net9.0/Codebase.196E0DCB.Up2Date
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/mixed/CodebaseGraderTestApp/obj/Debug/net9.0/CodebaseGraderTestApp.dll
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/mixed/CodebaseGraderTestApp/obj/Debug/net9.0/refint/CodebaseGraderTestApp.dll
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/mixed/CodebaseGraderTestApp/obj/Debug/net9.0/CodebaseGraderTestApp.pdb
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/mixed/CodebaseGraderTestApp/obj/Debug/net9.0/CodebaseGraderTestApp.genruntimeconfig.cache
+/Users/davidmondrusov/Desktop/Work/codebase-grading-sandbox/test-app/mixed/CodebaseGraderTestApp/obj/Debug/net9.0/ref/CodebaseGraderTestApp.dll
+C:\Users\David Mondrusov\Desktop\work\codebase-grading-agent\test-app\mixed3\CodebaseGraderTestApp\bin\Debug\net9.0\appsettings.json
+C:\Users\David Mondrusov\Desktop\work\codebase-grading-agent\test-app\mixed3\CodebaseGraderTestApp\bin\Debug\net9.0\CodebaseGraderTestApp.staticwebassets.endpoints.json
+C:\Users\David Mondrusov\Desktop\work\codebase-grading-agent\test-app\mixed3\CodebaseGraderTestApp\bin\Debug\net9.0\CodebaseGraderTestApp.exe
+C:\Users\David Mondrusov\Desktop\work\codebase-grading-agent\test-app\mixed3\CodebaseGraderTestApp\bin\Debug\net9.0\CodebaseGraderTestApp.deps.json
+C:\Users\David Mondrusov\Desktop\work\codebase-grading-agent\test-app\mixed3\CodebaseGraderTestApp\bin\Debug\net9.0\CodebaseGraderTestApp.runtimeconfig.json
+C:\Users\David Mondrusov\Desktop\work\codebase-grading-agent\test-app\mixed3\CodebaseGraderTestApp\bin\Debug\net9.0\CodebaseGraderTestApp.dll
+C:\Users\David Mondrusov\Desktop\work\codebase-grading-agent\test-app\mixed3\CodebaseGraderTestApp\bin\Debug\net9.0\CodebaseGraderTestApp.pdb
+C:\Users\David Mondrusov\Desktop\work\codebase-grading-agent\test-app\mixed3\CodebaseGraderTestApp\bin\Debug\net9.0\AutoMapper.dll
+C:\Users\David Mondrusov\Desktop\work\codebase-grading-agent\test-app\mixed3\CodebaseGraderTestApp\bin\Debug\net9.0\Azure.Core.dll
+C:\Users\David Mondrusov\Desktop\work\codebase-grading-agent\test-app\mixed3\CodebaseGraderTestApp\bin\Debug\net9.0\Azure.Identity.dll
+C:\Users\David Mondrusov\Desktop\work\codebase-grading-agent\test-app\mixed3\CodebaseGraderTestApp\bin\Debug\net9.0\Azure.Security.KeyVault.Secrets.dll
+C:\Users\David Mondrusov\Desktop\work\codebase-grading-agent\test-app\mixed3\CodebaseGraderTestApp\bin\Debug\net9.0\Dapper.dll
+C:\Users\David Mondrusov\Desktop\work\codebase-grading-agent\test-app\mixed3\CodebaseGraderTestApp\bin\Debug\net9.0\log4net.dll
+C:\Users\David Mondrusov\Desktop\work\codebase-grading-agent\test-app\mixed3\CodebaseGraderTestApp\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\David Mondrusov\Desktop\work\codebase-grading-agent\test-app\mixed3\CodebaseGraderTestApp\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\David Mondrusov\Desktop\work\codebase-grading-agent\test-app\mixed3\CodebaseGraderTestApp\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\David Mondrusov\Desktop\work\codebase-grading-agent\test-app\mixed3\CodebaseGraderTestApp\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\David Mondrusov\Desktop\work\codebase-grading-agent\test-app\mixed3\CodebaseGraderTestApp\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\David Mondrusov\Desktop\work\codebase-grading-agent\test-app\mixed3\CodebaseGraderTestApp\bin\Debug\net9.0\Microsoft.Identity.Client.dll
+C:\Users\David Mondrusov\Desktop\work\codebase-grading-agent\test-app\mixed3\CodebaseGraderTestApp\bin\Debug\net9.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\David Mondrusov\Desktop\work\codebase-grading-agent\test-app\mixed3\CodebaseGraderTestApp\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\David Mondrusov\Desktop\work\codebase-grading-agent\test-app\mixed3\CodebaseGraderTestApp\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\David Mondrusov\Desktop\work\codebase-grading-agent\test-app\mixed3\CodebaseGraderTestApp\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\David Mondrusov\Desktop\work\codebase-grading-agent\test-app\mixed3\CodebaseGraderTestApp\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\David Mondrusov\Desktop\work\codebase-grading-agent\test-app\mixed3\CodebaseGraderTestApp\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\David Mondrusov\Desktop\work\codebase-grading-agent\test-app\mixed3\CodebaseGraderTestApp\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\David Mondrusov\Desktop\work\codebase-grading-agent\test-app\mixed3\CodebaseGraderTestApp\bin\Debug\net9.0\Newtonsoft.Json.dll
+C:\Users\David Mondrusov\Desktop\work\codebase-grading-agent\test-app\mixed3\CodebaseGraderTestApp\bin\Debug\net9.0\System.ClientModel.dll
+C:\Users\David Mondrusov\Desktop\work\codebase-grading-agent\test-app\mixed3\CodebaseGraderTestApp\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+C:\Users\David Mondrusov\Desktop\work\codebase-grading-agent\test-app\mixed3\CodebaseGraderTestApp\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\David Mondrusov\Desktop\work\codebase-grading-agent\test-app\mixed3\CodebaseGraderTestApp\bin\Debug\net9.0\System.Memory.Data.dll
+C:\Users\David Mondrusov\Desktop\work\codebase-grading-agent\test-app\mixed3\CodebaseGraderTestApp\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\David Mondrusov\Desktop\work\codebase-grading-agent\test-app\mixed3\CodebaseGraderTestApp\bin\Debug\net9.0\System.Security.Permissions.dll
+C:\Users\David Mondrusov\Desktop\work\codebase-grading-agent\test-app\mixed3\CodebaseGraderTestApp\bin\Debug\net9.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\David Mondrusov\Desktop\work\codebase-grading-agent\test-app\mixed3\CodebaseGraderTestApp\obj\Debug\net9.0\CodebaseGraderTestApp.csproj.AssemblyReference.cache
+C:\Users\David Mondrusov\Desktop\work\codebase-grading-agent\test-app\mixed3\CodebaseGraderTestApp\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Users\David Mondrusov\Desktop\work\codebase-grading-agent\test-app\mixed3\CodebaseGraderTestApp\obj\Debug\net9.0\CodebaseGraderTestApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\David Mondrusov\Desktop\work\codebase-grading-agent\test-app\mixed3\CodebaseGraderTestApp\obj\Debug\net9.0\CodebaseGraderTestApp.AssemblyInfoInputs.cache
+C:\Users\David Mondrusov\Desktop\work\codebase-grading-agent\test-app\mixed3\CodebaseGraderTestApp\obj\Debug\net9.0\CodebaseGraderTestApp.AssemblyInfo.cs
+C:\Users\David Mondrusov\Desktop\work\codebase-grading-agent\test-app\mixed3\CodebaseGraderTestApp\obj\Debug\net9.0\CodebaseGraderTestApp.csproj.CoreCompileInputs.cache
+C:\Users\David Mondrusov\Desktop\work\codebase-grading-agent\test-app\mixed3\CodebaseGraderTestApp\obj\Debug\net9.0\CodebaseGraderTestApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\David Mondrusov\Desktop\work\codebase-grading-agent\test-app\mixed3\CodebaseGraderTestApp\obj\Debug\net9.0\CodebaseGraderTestApp.sourcelink.json
+C:\Users\David Mondrusov\Desktop\work\codebase-grading-agent\test-app\mixed3\CodebaseGraderTestApp\obj\Debug\net9.0\rjimswa.dswa.cache.json
+C:\Users\David Mondrusov\Desktop\work\codebase-grading-agent\test-app\mixed3\CodebaseGraderTestApp\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+C:\Users\David Mondrusov\Desktop\work\codebase-grading-agent\test-app\mixed3\CodebaseGraderTestApp\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
+C:\Users\David Mondrusov\Desktop\work\codebase-grading-agent\test-app\mixed3\CodebaseGraderTestApp\obj\Debug\net9.0\scopedcss\bundle\CodebaseGraderTestApp.styles.css
+C:\Users\David Mondrusov\Desktop\work\codebase-grading-agent\test-app\mixed3\CodebaseGraderTestApp\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\David Mondrusov\Desktop\work\codebase-grading-agent\test-app\mixed3\CodebaseGraderTestApp\obj\Debug\net9.0\staticwebassets.build.json.cache
+C:\Users\David Mondrusov\Desktop\work\codebase-grading-agent\test-app\mixed3\CodebaseGraderTestApp\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\David Mondrusov\Desktop\work\codebase-grading-agent\test-app\mixed3\CodebaseGraderTestApp\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\David Mondrusov\Desktop\work\codebase-grading-agent\test-app\mixed3\CodebaseGraderTestApp\obj\Debug\net9.0\Codebase.196E0DCB.Up2Date
+C:\Users\David Mondrusov\Desktop\work\codebase-grading-agent\test-app\mixed3\CodebaseGraderTestApp\obj\Debug\net9.0\CodebaseGraderTestApp.dll
+C:\Users\David Mondrusov\Desktop\work\codebase-grading-agent\test-app\mixed3\CodebaseGraderTestApp\obj\Debug\net9.0\refint\CodebaseGraderTestApp.dll
+C:\Users\David Mondrusov\Desktop\work\codebase-grading-agent\test-app\mixed3\CodebaseGraderTestApp\obj\Debug\net9.0\CodebaseGraderTestApp.pdb
+C:\Users\David Mondrusov\Desktop\work\codebase-grading-agent\test-app\mixed3\CodebaseGraderTestApp\obj\Debug\net9.0\CodebaseGraderTestApp.genruntimeconfig.cache
+C:\Users\David Mondrusov\Desktop\work\codebase-grading-agent\test-app\mixed3\CodebaseGraderTestApp\obj\Debug\net9.0\ref\CodebaseGraderTestApp.dll
