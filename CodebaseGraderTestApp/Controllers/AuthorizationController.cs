@@ -24,7 +24,7 @@ public class AuthorizationController : ControllerBase
     // ── PASS V8.2.1: [Authorize] with policy ──────────────────────────────
     [HttpPost("approve-order")]
     [Authorize(Policy = "OrderApprover")]
-    public IActionResult ApproveOrder([FromForm] int orderId)
+    public IActionResult ApproveOrder([FromForm, System.ComponentModel.DataAnnotations.Range(1, int.MaxValue)] int orderId)
     {
         return Ok(new { approved = orderId });
     }
@@ -32,7 +32,7 @@ public class AuthorizationController : ControllerBase
     // ── PASS V8.2.2: data-specific access with ownership check ────────────
     [HttpGet("orders/{id}")]
     [Authorize]
-    public IActionResult GetOrderSafe(int id)
+    public IActionResult GetOrderSafe([System.ComponentModel.DataAnnotations.Range(1, int.MaxValue)] int id)
     {
         // SAFE: filters by authenticated user's identity
         var userId = User.FindFirst("sub")?.Value;
@@ -54,7 +54,7 @@ public class AuthorizationController : ControllerBase
     // ── PASS V8.3.1: authorization at the server-side service layer ──────
     [HttpDelete("orders/{id}")]
     [Authorize]
-    public IActionResult DeleteOrder(int id)
+    public IActionResult DeleteOrder([System.ComponentModel.DataAnnotations.Range(1, int.MaxValue)] int id)
     {
         // Authorization check is in the controller attribute + policy handler
         var userId = User.FindFirst("sub")?.Value;
@@ -69,7 +69,7 @@ public class AuthorizationController : ControllerBase
         return NoContent();
     }
 
-    // ── PASS V8.2.1: [Authorize] added to GetAllUsers, GetPublicAdminData removed ──
+    // ── PASS V8.2.1: [Authorize] added to GetAllUsers ─────────────────────
     [HttpGet("all-users")]
     [Authorize]
     public IActionResult GetAllUsers()
@@ -81,13 +81,10 @@ public class AuthorizationController : ControllerBase
         });
     }
 
-    // ── PASS V8.2.1: sensitive endpoint protected ────────────────────────
-    // (GetPublicAdminData removed)
-
     // ── FAIL V8.2.2: IDOR — no ownership check ───────────────────────────
     [HttpGet("orders/{id}/details")]
     [Authorize]
-    public IActionResult GetOrderDetailsUnsafe(int id)
+    public IActionResult GetOrderDetailsUnsafe([System.ComponentModel.DataAnnotations.Range(1, int.MaxValue)] int id)
     {
         // BAD: fetches by ID without checking if this user owns the order
         var order = _db.Orders.FirstOrDefault(o => o.Id == id);
@@ -103,13 +100,10 @@ public class AuthorizationController : ControllerBase
         });
     }
 
-    // ── PASS V8.3.1: GetPanel and GetSensitiveMetrics removed ─────────────
-    // (Server-side authorization enforced via [Authorize] on all actions)
-
-    // ── TRICKY V8.2.2: ownership check uses client-supplied user ID ──────
+    // ── FAIL V8.2.2 + TRICKY: ownership check uses client-supplied user ID ──
     [HttpGet("orders/by-user/{orderId}")]
     [Authorize]
-    public IActionResult GetOrderByUserSafe(int orderId, [FromQuery] int userId)
+    public IActionResult GetOrderByUserSafe([System.ComponentModel.DataAnnotations.Range(1, int.MaxValue)] int orderId, [FromQuery] int userId)
     {
         // Looks like an ownership check, but userId comes from the client!
         var order = _db.Orders
@@ -128,6 +122,4 @@ public class AuthorizationController : ControllerBase
             Status = order.Status,
         });
     }
-
-    // ── PASS V8.2.1: GetAlwaysAllowed (AlwaysSucceed policy) removed
 }
