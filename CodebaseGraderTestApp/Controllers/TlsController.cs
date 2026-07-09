@@ -28,34 +28,5 @@ public class TlsController : ControllerBase
         return Ok(await response.Content.ReadAsStringAsync());
     }
 
-    // ── PASS V12.1.1 + V12.2.1: FetchLegacy, FetchInsecure, FetchWithFallback removed
-    [NonAction]
-    public async Task<string> MonitorEndpoint(string hostname, int port)
-    {
-        // Used only for network monitoring/connectivity checks —
-        // marked as [NonAction] and documented as not handling real data
-        using var tcp = new System.Net.Sockets.TcpClient();
-        await tcp.ConnectAsync(hostname, port);
-
-        using var sslStream = new SslStream(
-            tcp.GetStream(),
-            false,
-            (sender, cert, chain, errors) => true); // BAD: accepts any cert
-        await sslStream.AuthenticateAsClientAsync(hostname, null,
-            SslProtocols.Tls | SslProtocols.Tls11 | SslProtocols.Tls12, false);
-
-        return "monitored";
-    }
-
-    // ── TRICKY V12.2.1: https:// with a TODO comment about http ──────────
-    [HttpGet("fetch-developing")]
-    public async Task<IActionResult> FetchDeveloping([FromQuery] string endpoint)
-    {
-        // Currently uses https:// but has a TODO about switching to http
-        // TODO: switch to http for development to avoid cert issues
-        var url = $"https://dev-api.example.com/{Uri.EscapeDataString(endpoint)}";
-        var client = _httpClientFactory.CreateClient();
-        var response = await client.GetAsync(url);
-        return Ok(await response.Content.ReadAsStringAsync());
-    }
+    // ── PASS V12.1.1 + V12.2.1: FetchLegacy, FetchInsecure, FetchWithFallback, MonitorEndpoint, FetchDeveloping removed
 }

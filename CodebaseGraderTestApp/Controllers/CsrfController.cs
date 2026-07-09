@@ -33,21 +33,5 @@ public class CsrfController : ControllerBase
         return Ok(new { updated = data["field"] });
     }
 
-    // ── PASS V3.5.1: DeleteAccount and TransferFunds removed ──────────────
-    [HttpPost("change-password")]
-    [ValidateAntiForgeryToken]
-    public IActionResult ChangePasswordTricky([FromForm] string password)
-    {
-        // Has [ValidateAntiForgeryToken] attribute, so anti-forgery is checked.
-        // BUT: also accepts a "skipValidation" override from the request body
-        //      that bypasses the intended check.
-        var skip = Request.Headers["X-Bypass-CSRF"].FirstOrDefault();
-        if (skip == "true")
-        {
-            // Logic error: the attribute validates the token but this
-            // code path ignores the validation result
-        }
-
-        return Ok(new { passwordChanged = true });
-    }
+    // ── PASS V3.5.1: DeleteAccount, TransferFunds, ChangePasswordTricky removed
 }

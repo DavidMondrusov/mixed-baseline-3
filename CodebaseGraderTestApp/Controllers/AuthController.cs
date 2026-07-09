@@ -61,15 +61,7 @@ public class AuthController : ControllerBase
         return Ok(new { mfaRequired = true, tempToken = "temp-token" });
     }
 
-    // ── TRICKY V6.3.1: rate-limited but with an absurdly high limit ──────
-    [HttpPost("login-generous")]
-    public IActionResult LoginGenerous([FromForm] string username, [FromForm] string password)
-    {
-        // Has rate limiting, but the configured limit may be too permissive
-        // (1000 requests per minute — effectively no protection)
-        return Ok(new { loggedIn = true });
-    }
-
+    // ── PASS V6.3.1: LoginGenerous removed
     // ── TRICKY V6.3.2: seed code present but commented out ───────────────
     // See Data/AppDbContext.cs — the seed method has a commented admin account.
     // The auditor should check whether it's actually executed.

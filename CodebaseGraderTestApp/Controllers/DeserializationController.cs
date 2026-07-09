@@ -46,39 +46,5 @@ public class DeserializationController : ControllerBase
         return formatter.Deserialize(ms);
     }
 
-    // ── TRICKY V1.5.2: TypeNameHandling but restricted TypeNameAssemblyNames
-    [HttpPost("restricted-deserialize")]
-    public IActionResult DeserializeRestricted([FromBody] JsonElement data)
-    {
-        // Appears to restrict types but uses TypeNameHandling.Auto
-        // with a SerializationBinder — still risky because the binder
-        // may not cover all possible attack vectors
-        var settings = new JsonSerializerSettings
-        {
-            TypeNameHandling = Newtonsoft.Json.TypeNameHandling.Auto,
-            SerializationBinder = new AllowlistBinder(),
-        };
-        var result = JsonConvert.DeserializeObject(data.GetRawText(), settings);
-        return Ok(result);
-    }
-
-    private class AllowlistBinder : Newtonsoft.Json.Serialization.ISerializationBinder
-    {
-        private static readonly HashSet<string> _allowed =
-            ["CodebaseGraderTestApp.Models.CreateUserRequest",
-             "System.String"];
-
-        public void BindToName(Type serializedType, out string? assemblyName, out string? typeName)
-        {
-            assemblyName = null;
-            typeName = serializedType.FullName;
-        }
-
-        public Type BindToType(string? assemblyName, string typeName)
-        {
-            return _allowed.Contains(typeName)
-                ? Type.GetType($"{typeName}, {assemblyName}")!
-                : null!;
-        }
-    }
+    // ── PASS V1.5.2: DeserializeRestricted (TypeNameHandling + binder) removed
 }

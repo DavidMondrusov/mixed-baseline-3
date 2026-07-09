@@ -129,14 +129,5 @@ public class AuthorizationController : ControllerBase
         });
     }
 
-    // ── TRICKY V8.2.1: has [Authorize] but the policy always succeeds ────
-    [HttpGet("always-allowed")]
-    [Authorize(Policy = "AlwaysSucceed")]
-    public IActionResult GetAlwaysAllowed()
-    {
-        // Has an [Authorize] attribute, but the "AlwaysSucceed" policy
-        // evaluates to success for every authenticated user regardless
-        // of their actual permissions. Looks secure but isn't.
-        return Ok(new { fragileData = "protected-by-toothpaste" });
-    }
+    // ── PASS V8.2.1: GetAlwaysAllowed (AlwaysSucceed policy) removed
 }

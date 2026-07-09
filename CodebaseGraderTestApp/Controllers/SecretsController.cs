@@ -40,29 +40,6 @@ public class SecretsController : ControllerBase
         return Ok(new { configured = !string.IsNullOrEmpty(apiKey) });
     }
 
-    // ── PASS V13.3.1: GetLegacyDb, GetExternalApiStatus, GetJwtStatus removed ──
+    // ── PASS V13.3.1: GetLegacyDb, GetExternalApiStatus, GetJwtStatus, GetPlaceholderSecret, GetConfigSecret removed
     // See appsettings.json for a hardcoded "Database:ConnectionString"
-
-    // ── TRICKY V13.3.1: looks hardcoded but is a placeholder ─────────────
-    [HttpGet("placeholder-secret")]
-    public IActionResult GetPlaceholderSecret()
-    {
-        // This looks like a hardcoded secret but is actually a placeholder
-        // that the deployment pipeline replaces with the real value
-        var secret = "{PLACEHOLDER_DB_CONNECTION_STRING}";
-        return Ok(new { secret, replaced = false });
-    }
-
-    // ── TRICKY V13.3.1: looks hardcoded but comes from environment ──────
-    [HttpGet("config-secret")]
-    public IActionResult GetConfigSecret()
-    {
-        // The actual value is in environment variables or Key Vault,
-        // but there's a default fallback that looks hardcoded.
-        // The grader should check if the default is used in production.
-        var apiKey = _config.GetValue<string>("ExternalService:ApiKey")
-            ?? "sk-default-fallback-key";  // Tricky: fallback only
-
-        return Ok(new { source = "config" });
-    }
 }

@@ -36,17 +36,5 @@ public class XxeController : ControllerBase
         return Ok(new { name = doc.DocumentElement?.Name });
     }
 
-    // ── PASS V1.5.1: ImportLegacyXml and ParseReportUnsafe removed ────────
-    [HttpPost("parse-order")]
-    public IActionResult ParseOrderTricky([FromBody] string xmlContent)
-    {
-        var doc = new XmlDocument();
-
-        // XML is loaded BEFORE resolver is disabled — entity already resolved
-        doc.LoadXml(xmlContent);
-
-        doc.XmlResolver = null; // too late — the entities are already processed
-
-        return Ok(new { name = doc.DocumentElement?.Name });
-    }
+    // ── PASS V1.5.1: ImportLegacyXml, ParseReportUnsafe, ParseOrderTricky removed
 }

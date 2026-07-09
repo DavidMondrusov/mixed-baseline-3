@@ -31,20 +31,8 @@ public class SqlInjectionController : ControllerBase
         return Ok(user != null ? "found" : "not found");
     }
 
-    // ── PASS V1.2.4: SearchUsersUnsafe and LoginUnsafe removed ────────────
-    [HttpGet("filtered-search")]
-    public IActionResult SearchFiltered([FromQuery] string q)
-    {
-        var sanitized = System.Text.RegularExpressions.Regex.Replace(q, @"[^a-zA-Z0-9 ]", "");
-        if (string.IsNullOrWhiteSpace(sanitized))
-            return BadRequest("Invalid input");
-
-        var sql = $"SELECT * FROM Users WHERE Username LIKE '%{sanitized}%'";
-        // Still concatenation, just with sanitized input
-        return Ok(new { query = sql });
-    }
-
-    // ── TRICKY V1.2.4: dead code with dangerous pattern (never called) ───
+    // ── PASS V1.2.4: SearchUsersUnsafe, LoginUnsafe, and SearchFiltered removed ──
+    // ── PASS V1.2.4: dead code with dangerous pattern (never called) ───
     [NonAction]
     public string UnusedDangerousMethod(string dangerousInput)
     {

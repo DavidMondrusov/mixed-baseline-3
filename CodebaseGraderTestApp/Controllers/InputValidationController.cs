@@ -34,24 +34,5 @@ public class InputValidationController : ControllerBase
         return Ok(new { registered = username });
     }
 
-    // ── PASS V2.2.1 + V2.2.2: CreateUserUnvalidated, UpdateProfile, QuickSignup removed
-    [HttpPost("promote-user")]
-    public IActionResult PromoteUser([FromForm] string username, [FromForm] string newRole)
-    {
-        if (string.IsNullOrWhiteSpace(username))
-            return BadRequest("Username required");
-
-        // Validates username but NOT newRole — role can be set to anything
-        return Ok(new { promoted = username, role = newRole });
-    }
-
-    // ── TRICKY V2.2.2: server-side validation exists but has a bypass ────
-    [HttpPost("internal-signup")]
-    [ApiExplorerSettings(IgnoreApi = true)]
-    public IActionResult InternalSignup([FromBody] CreateUserRequestUnvalidated request)
-    {
-        // This endpoint is marked internal and bypasses the validated model
-        // type. Same business logic as CreateUser but with no validation.
-        return Ok(new { created = request.Username, role = request.Role });
-    }
+    // ── PASS V2.2.1 + V2.2.2: CreateUserUnvalidated, UpdateProfile, QuickSignup, PromoteUser, InternalSignup removed
 }
