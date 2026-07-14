@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nhnnc3dgaT8=",
+  "dgSpecHash": "5zdLP7F/Skw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\David Mondrusov\\Desktop\\work\\codebase-grading-agent\\runs\\mixed-baseline-3-20260714-161249\\repo-src\\CodebaseGraderTestApp\\CodebaseGraderTestApp.csproj",
+  "projectFilePath": "C:\\Users\\David Mondrusov\\Desktop\\work\\codebase-grading-agent\\test-app\\mixed3\\CodebaseGraderTestApp\\CodebaseGraderTestApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\David Mondrusov\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\David Mondrusov\\.nuget\\packages\\azure.core\\1.44.1\\azure.core.1.44.1.nupkg.sha512",
@@ -55,9 +55,9 @@
       "code": "NU1903",
       "level": "Warning",
       "message": "Package 'AutoMapper' 13.0.1 has a known high severity vulnerability, https://github.com/advisories/GHSA-rvv3-g6hj-g44x",
-      "projectPath": "C:\\Users\\David Mondrusov\\Desktop\\work\\codebase-grading-agent\\runs\\mixed-baseline-3-20260714-161249\\repo-src\\CodebaseGraderTestApp\\CodebaseGraderTestApp.csproj",
+      "projectPath": "C:\\Users\\David Mondrusov\\Desktop\\work\\codebase-grading-agent\\test-app\\mixed3\\CodebaseGraderTestApp\\CodebaseGraderTestApp.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\David Mondrusov\\Desktop\\work\\codebase-grading-agent\\runs\\mixed-baseline-3-20260714-161249\\repo-src\\CodebaseGraderTestApp\\CodebaseGraderTestApp.csproj",
+      "filePath": "C:\\Users\\David Mondrusov\\Desktop\\work\\codebase-grading-agent\\test-app\\mixed3\\CodebaseGraderTestApp\\CodebaseGraderTestApp.csproj",
       "libraryId": "AutoMapper",
       "targetGraphs": [
         "net9.0"
@@ -67,9 +67,9 @@
       "code": "NU1902",
       "level": "Warning",
       "message": "Package 'log4net' 2.0.12 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-4f7c-pmjv-c25w",
-      "projectPath": "C:\\Users\\David Mondrusov\\Desktop\\work\\codebase-grading-agent\\runs\\mixed-baseline-3-20260714-161249\\repo-src\\CodebaseGraderTestApp\\CodebaseGraderTestApp.csproj",
+      "projectPath": "C:\\Users\\David Mondrusov\\Desktop\\work\\codebase-grading-agent\\test-app\\mixed3\\CodebaseGraderTestApp\\CodebaseGraderTestApp.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\David Mondrusov\\Desktop\\work\\codebase-grading-agent\\runs\\mixed-baseline-3-20260714-161249\\repo-src\\CodebaseGraderTestApp\\CodebaseGraderTestApp.csproj",
+      "filePath": "C:\\Users\\David Mondrusov\\Desktop\\work\\codebase-grading-agent\\test-app\\mixed3\\CodebaseGraderTestApp\\CodebaseGraderTestApp.csproj",
       "libraryId": "log4net",
       "targetGraphs": [
         "net9.0"

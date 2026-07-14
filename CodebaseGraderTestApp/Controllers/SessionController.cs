@@ -1,6 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Authentication;
-using Microsoft.AspNetCore.Authorization;
 using System.Security.Claims;
 
 namespace CodebaseGraderTestApp.Controllers;
@@ -13,7 +12,6 @@ public class SessionController : ControllerBase
     // (SessionValidationMiddleware in Security/ folder handles this globally)
     // This endpoint relies on the middleware to validate the session token.
 
-    [Authorize]
     [HttpGet("profile")]
     public IActionResult GetProfile()
     {
@@ -45,7 +43,6 @@ public class SessionController : ControllerBase
     }
 
     // ── PASS V7.2.1: Dashboard and AdminPanel bypass removed ──────────────
-    [Authorize]
     [HttpGet("admin-panel")]
     public IActionResult AdminPanel()
     {
@@ -58,11 +55,19 @@ public class SessionController : ControllerBase
     }
 
     // ── PASS V7.2.4: LoginSimple and Reauthenticate removed ──────────────
-    [Authorize]
     [HttpGet("reports")]
     public IActionResult GetReports()
     {
-        // SAFE: server-side session validation via middleware
+        // Has server-side session validation via middleware.
+        // But also accepts an "X-Admin-Override" header that bypasses
+        // the normal session check for "emergency access".
+        var adminOverride = Request.Headers["X-Admin-Override"].FirstOrDefault();
+        if (adminOverride == "emergency-bypass-2024")
+        {
+            // This hardcoded bypass would be a finding
+            return Ok(new { reports = "sensitive", bypassed = true });
+        }
+
         var userId = HttpContext.Items["ValidatedUserId"] as string;
         if (userId == null)
             return Unauthorized();

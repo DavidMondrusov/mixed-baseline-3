@@ -1981,11 +1981,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\David Mondrusov\\Desktop\\work\\codebase-grading-agent\\runs\\mixed-baseline-3-20260714-161249\\repo-src\\CodebaseGraderTestApp\\CodebaseGraderTestApp.csproj",
+      "projectUniqueName": "C:\\Users\\David Mondrusov\\Desktop\\work\\codebase-grading-agent\\test-app\\mixed3\\CodebaseGraderTestApp\\CodebaseGraderTestApp.csproj",
       "projectName": "CodebaseGraderTestApp",
-      "projectPath": "C:\\Users\\David Mondrusov\\Desktop\\work\\codebase-grading-agent\\runs\\mixed-baseline-3-20260714-161249\\repo-src\\CodebaseGraderTestApp\\CodebaseGraderTestApp.csproj",
+      "projectPath": "C:\\Users\\David Mondrusov\\Desktop\\work\\codebase-grading-agent\\test-app\\mixed3\\CodebaseGraderTestApp\\CodebaseGraderTestApp.csproj",
       "packagesPath": "C:\\Users\\David Mondrusov\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\David Mondrusov\\Desktop\\work\\codebase-grading-agent\\runs\\mixed-baseline-3-20260714-161249\\repo-src\\CodebaseGraderTestApp\\obj\\",
+      "outputPath": "C:\\Users\\David Mondrusov\\Desktop\\work\\codebase-grading-agent\\test-app\\mixed3\\CodebaseGraderTestApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\David Mondrusov\\AppData\\Roaming\\NuGet\\NuGet.Config"
