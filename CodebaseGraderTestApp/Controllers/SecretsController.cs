@@ -41,5 +41,4 @@ public class SecretsController : ControllerBase
     }
 
     // ── PASS V13.3.1: GetLegacyDb, GetExternalApiStatus, GetJwtStatus, GetPlaceholderSecret, GetConfigSecret removed
-    // See appsettings.json for a hardcoded "Database:ConnectionString"
 }

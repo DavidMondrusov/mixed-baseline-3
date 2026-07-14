@@ -6,12 +6,10 @@ namespace CodebaseGraderTestApp.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
-[EnableRateLimiting("LoginPolicy")]
 public class AuthController : ControllerBase
 {
     // ── PASS V6.3.1: rate-limited login endpoint ─────────────────────────
-    // (Rate limiting is configured via [EnableRateLimiting] at class level
-    //  and the "LoginPolicy" in Program.cs)
+    [EnableRateLimiting("LoginPolicy")]
     [HttpPost("login")]
     public IActionResult Login([FromForm] string username, [FromForm] string password)
     {
@@ -25,6 +23,7 @@ public class AuthController : ControllerBase
     }
 
     // ── PASS V6.3.1: MFA verification endpoint ───────────────────────────
+    [EnableRateLimiting("LoginPolicy")]
     [HttpPost("verify-mfa")]
     public IActionResult VerifyMfa([FromForm] string code)
     {
@@ -34,6 +33,7 @@ public class AuthController : ControllerBase
 
     // ── PASS V6.3.1: PasswordReset removed ───────────────────────────────
     // ── PASS V6.3.2: AdminLogin removed ─────────────────────────────────
+    [EnableRateLimiting("LoginPolicy")]
     [HttpPost("login-without-mfa")]
     public IActionResult LoginWithoutMfa([FromForm] string username, [FromForm] string password)
     {
@@ -45,6 +45,7 @@ public class AuthController : ControllerBase
     }
 
     // ── FAIL V6.3.3: MFA can be skipped via query parameter ──────────────
+    [EnableRateLimiting("LoginPolicy")]
     [HttpPost("login-with-mfa-optional")]
     public IActionResult LoginWithMfaOptional(
         [FromForm] string username,

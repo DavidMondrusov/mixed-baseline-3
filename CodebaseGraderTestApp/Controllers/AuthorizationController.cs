@@ -81,9 +81,10 @@ public class AuthorizationController : ControllerBase
         });
     }
 
+    // ── PASS V8.2.1: [Authorize(Roles = "Admin")] added ────────────────
     // ── FAIL V8.2.2: IDOR — no ownership check ───────────────────────────
     [HttpGet("orders/{id}/details")]
-    [Authorize]
+    [Authorize(Roles = "Admin")]
     public IActionResult GetOrderDetailsUnsafe([System.ComponentModel.DataAnnotations.Range(1, int.MaxValue)] int id)
     {
         // BAD: fetches by ID without checking if this user owns the order
@@ -100,9 +101,10 @@ public class AuthorizationController : ControllerBase
         });
     }
 
+    // ── PASS V8.2.1: [Authorize(Roles = "Admin")] added ────────────────
     // ── FAIL V8.2.2 + TRICKY: ownership check uses client-supplied user ID ──
     [HttpGet("orders/by-user/{orderId}")]
-    [Authorize]
+    [Authorize(Roles = "Admin")]
     public IActionResult GetOrderByUserSafe([System.ComponentModel.DataAnnotations.Range(1, int.MaxValue)] int orderId, [FromQuery] int userId)
     {
         // Looks like an ownership check, but userId comes from the client!
