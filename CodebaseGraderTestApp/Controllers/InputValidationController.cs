@@ -7,7 +7,7 @@ namespace CodebaseGraderTestApp.Controllers;
 [Route("api/[controller]")]
 public class InputValidationController : ControllerBase
 {
-    // ── PASS V2.2.1 + V2.2.2: model with full validation attributes ──────
+    // ── PASS V2.2.1 + PASS V2.2.2: model with full validation attributes ──
     [HttpPost("create-user")]
     public IActionResult CreateUser([FromBody] CreateUserRequest request)
     {
@@ -34,5 +34,5 @@ public class InputValidationController : ControllerBase
         return Ok(new { registered = username });
     }
 
-    // ── PASS V2.2.1 + V2.2.2: CreateUserUnvalidated, UpdateProfile, QuickSignup, PromoteUser, InternalSignup removed
+    // ── PASS V2.2.1 + PASS V2.2.2: CreateUserUnvalidated, UpdateProfile, QuickSignup, PromoteUser, InternalSignup removed
 }

@@ -26,7 +26,7 @@ public class FileUploadController : ControllerBase
 
     public FileUploadController(IWebHostEnvironment env) => _env = env;
 
-    // ── PASS V5.2.2: extension + magic byte validation ───────────────────
+    // ── PARTIAL V5.2.2 (2/4): CSV content not validated ─────────────────
     [HttpPost("upload-validated")]
     public async Task<IActionResult> UploadValidated(IFormFile file)
     {
@@ -66,5 +66,5 @@ public class FileUploadController : ControllerBase
         });
     }
 
-    // ── PASS V5.2.2 + V5.3.1 + V5.3.2: UploadQuick, UploadByMime, UploadSanitized, UploadToDirectory removed
+    // ── PASS V5.3.1 + V5.3.2: UploadQuick, UploadByMime, UploadSanitized, UploadToDirectory removed
 }

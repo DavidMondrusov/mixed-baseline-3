@@ -82,7 +82,7 @@ public class AuthorizationController : ControllerBase
     }
 
     // ── PASS V8.2.1: [Authorize(Roles = "Admin")] added ────────────────
-    // ── FAIL V8.2.2: IDOR — no ownership check ───────────────────────────
+    // ── PARTIAL V8.2.2 (2/4): IDOR remains here ──────────────────────────
     [HttpGet("orders/{id}/details")]
     [Authorize(Roles = "Admin")]
     public IActionResult GetOrderDetailsUnsafe([System.ComponentModel.DataAnnotations.Range(1, int.MaxValue)] int id)
@@ -101,21 +101,21 @@ public class AuthorizationController : ControllerBase
         });
     }
 
-    // ── PASS V8.2.1: [Authorize(Roles = "Admin")] added ────────────────
-    // ── FAIL V8.2.2 + TRICKY: ownership check uses client-supplied user ID ──
+    // ── PASS V8.2.2: ownership from server-side claims ──────────────────
     [HttpGet("orders/by-user/{orderId}")]
     [Authorize(Roles = "Admin")]
-    public IActionResult GetOrderByUserSafe([System.ComponentModel.DataAnnotations.Range(1, int.MaxValue)] int orderId, [FromQuery] int userId)
+    public IActionResult GetOrderByUserSafe([System.ComponentModel.DataAnnotations.Range(1, int.MaxValue)] int orderId)
     {
-        // Looks like an ownership check, but userId comes from the client!
+        var userId = User.FindFirst("sub")?.Value;
+        if (userId == null)
+            return Unauthorized();
+
         var order = _db.Orders
-            .FirstOrDefault(o => o.Id == orderId && o.OwnerUserId == userId);
+            .FirstOrDefault(o => o.Id == orderId && o.OwnerUserId.ToString() == userId);
 
         if (order == null)
             return NotFound();
 
-        // The check passes because userId is attacker-controlled —
-        // attacker can set userId to the victim's ID
         return Ok(new OrderDto
         {
             Id = order.Id,

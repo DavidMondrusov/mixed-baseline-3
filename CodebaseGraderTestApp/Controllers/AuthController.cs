@@ -8,7 +8,7 @@ namespace CodebaseGraderTestApp.Controllers;
 [Route("api/[controller]")]
 public class AuthController : ControllerBase
 {
-    // ── PASS V6.3.1: rate-limited login endpoint ─────────────────────────
+    // ── PARTIAL V6.3.1 (3/4): rate-limited, no lockout ──────────────────
     [EnableRateLimiting("LoginPolicy")]
     [HttpPost("login")]
     public IActionResult Login([FromForm] string username, [FromForm] string password)
@@ -22,7 +22,7 @@ public class AuthController : ControllerBase
         return Unauthorized();
     }
 
-    // ── PASS V6.3.1: MFA verification endpoint ───────────────────────────
+    // ── PARTIAL V6.3.1: MFA verification endpoint ────────────────────────
     [EnableRateLimiting("LoginPolicy")]
     [HttpPost("verify-mfa")]
     public IActionResult VerifyMfa([FromForm] string code)
@@ -31,7 +31,7 @@ public class AuthController : ControllerBase
         return Ok(new { verified = true });
     }
 
-    // ── PASS V6.3.1: PasswordReset removed ───────────────────────────────
+    // ── V6.3.1: PasswordReset removed ────────────────────────────────────
     // ── PASS V6.3.2: AdminLogin removed ─────────────────────────────────
     [EnableRateLimiting("LoginPolicy")]
     [HttpPost("login-without-mfa")]
@@ -62,7 +62,7 @@ public class AuthController : ControllerBase
         return Ok(new { mfaRequired = true, tempToken = "temp-token" });
     }
 
-    // ── PASS V6.3.1: LoginGenerous removed
+    // ── V6.3.1: LoginGenerous removed
     // ── TRICKY V6.3.2: seed code present but commented out ───────────────
     // See Data/AppDbContext.cs — the seed method has a commented admin account.
     // The auditor should check whether it's actually executed.
